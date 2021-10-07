@@ -1,0 +1,31 @@
+# mutation{
+#   setMessage(newMessage: "Its a Mutation !!!....")
+# }
+
+mutation{
+  createUser(user: {
+    name: "Mikkke",
+    age:99,
+    college: "IIT"
+  }) {
+    name
+    college
+  }
+}
+
+# query {
+#   welcomeMessage(name: "Mayank Patel",dayOfWeek: "Sunday")
+#   hello
+#   getUser {
+#     name
+#     college
+#   }
+#   getUsers{
+#     name
+#   }
+#   getPostsFromExternalAPI {
+#     id
+#     body
+#   }
+# }
+
